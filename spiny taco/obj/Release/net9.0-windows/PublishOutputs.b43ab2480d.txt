@@ -1,0 +1,5 @@
+C:\Users\Kaike\Desktop\Apps for admin\published apps\tacospinerV1\spiny taco.exe
+C:\Users\Kaike\Desktop\Apps for admin\published apps\tacospinerV1\spiny taco.dll
+C:\Users\Kaike\Desktop\Apps for admin\published apps\tacospinerV1\spiny taco.deps.json
+C:\Users\Kaike\Desktop\Apps for admin\published apps\tacospinerV1\spiny taco.runtimeconfig.json
+C:\Users\Kaike\Desktop\Apps for admin\published apps\tacospinerV1\spiny taco.pdb

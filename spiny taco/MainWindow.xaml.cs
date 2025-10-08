@@ -1,7 +1,10 @@
 ﻿
+using System.IO;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
+using System.Windows.Media.Imaging;
 
 
 namespace spiny_taco;
@@ -15,9 +18,27 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
         counter.Visibility = Visibility.Hidden;
+        displayMess();
     }
 
-   
+    public string steamGameLoaction = @"C:\Program Files (x86)\Steam\steamapps\common\Ultrakill";
+
+    private bool CheckIfhaveUK()
+    {
+       if (Directory.Exists(steamGameLoaction))
+       return true;
+       else
+       return false;
+       
+    }
+
+    private void displayMess()
+    {
+       if (CheckIfhaveUK())
+       {
+          MessageBox.Show("You PLAY \n ULTRAKILL","u hav UK",MessageBoxButton.OK,MessageBoxImage.Warning);
+       }
+    }
     private void LEAVE_OnClick(object sender, RoutedEventArgs e)
     {
         
@@ -33,8 +54,23 @@ public partial class MainWindow : Window
 
     private void MakeLarge_OnClick(object sender, RoutedEventArgs e)
     {
-        MainWindow mainWindow = this as MainWindow;
-        mainWindow.WindowState = WindowState.Maximized;
+        
+    }
+    private void MakeLarge_OnChecked(object sender, RoutedEventArgs e)
+    {
+       if (MakeLarge.IsChecked == true)
+       {
+          MainWindow mainWindow = this as MainWindow;
+          mainWindow.WindowState = WindowState.Maximized;
+       }
+    }
+    private void MakeLarge_OnUnchecked(object sender, RoutedEventArgs e)
+    {
+       if (MakeLarge.IsChecked == false)
+       {
+          MainWindow mainWindow = this as MainWindow;
+          mainWindow.WindowState = WindowState.Normal;
+       }
     }
 
     public int k = 0;
@@ -298,4 +334,23 @@ public partial class MainWindow : Window
             
         }
     }
+
+
+    private void Cartoonify_OnChecked(object sender, RoutedEventArgs e)
+    {
+       BitmapImage image = new BitmapImage(new Uri("pack://application:,,,/images/fulltaco.png"));
+       taco.Source = image;
+       taco.Width = 250;
+       cartoonify.Content = "✔  Cartoon?";
+    }
+
+    private void Cartoonify_OnUnchecked(object sender, RoutedEventArgs e)
+    {
+       BitmapImage image = new BitmapImage(new Uri("pack://application:,,,/images/taco.jpg"));
+       taco.Source = image;
+       taco.Width = 190;
+       cartoonify.Content = "❌  Cartoon?";
+    }
+
+    
 }

@@ -18,3 +18,4 @@ C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\obj\Debug\net9.0-windows\refi
 C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\obj\Debug\net9.0-windows\spiny taco.pdb
 C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\obj\Debug\net9.0-windows\spiny taco.genruntimeconfig.cache
 C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\obj\Debug\net9.0-windows\ref\spiny taco.dll
+C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\obj\Debug\net9.0-windows\spiny taco.sourcelink.json

@@ -12,6 +12,12 @@
     <ItemGroup>
       <None Remove="images\taco.jpg" />
       <Resource Include="images\taco.jpg" />
+      <None Remove="images\taco.ico" />
+      <Resource Include="images\taco.ico" />
+      <None Remove="images\taco.png" />
+      <Resource Include="images\taco.png" />
+      <None Remove="images\full taco.png" />
+      <Resource Include="images\fulltaco.png" />
     </ItemGroup>
 
 </Project>

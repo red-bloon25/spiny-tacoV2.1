@@ -11,6 +11,7 @@
         ResizeMode="CanResize"
         Name="THEWINDOW"
         AllowsTransparency="True"
+        Icon="images/taco.ico"
         >
     <Grid>
         <Grid.RowDefinitions>
@@ -55,7 +56,8 @@
                 FontSize="11"
                 VerticalContentAlignment="Top"
                 HorizontalContentAlignment="Center"
-                Click="MakeLarge_OnClick"
+                Checked="MakeLarge_OnChecked"
+                Unchecked="MakeLarge_OnUnchecked"
             />
         </Canvas>
         <!-- add a logo or something idk -->
@@ -89,5 +91,18 @@
                 Margin="0,350,0,0"
                 Click="SPINTACO"
                 />
+        <ToggleButton Grid.Row="1"
+                      Background="Transparent"
+                      BorderBrush="Transparent"
+                     Content="O  Cartoon?"
+                     ToolTip="Changes the taco to a cartoony looking one"
+                     Width="70"
+                     Height="20"
+                     VerticalAlignment="Top"
+                     HorizontalAlignment="Left"
+                     Name="cartoonify"
+                     Checked="Cartoonify_OnChecked"
+                     Unchecked="Cartoonify_OnUnchecked"
+                     />
     </Grid>
 </Window>
