@@ -1,0 +1,20 @@
+C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\bin\Debug\net9.0-windows\spiny taco.exe
+C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\bin\Debug\net9.0-windows\spiny taco.deps.json
+C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\bin\Debug\net9.0-windows\spiny taco.runtimeconfig.json
+C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\bin\Debug\net9.0-windows\spiny taco.dll
+C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\bin\Debug\net9.0-windows\spiny taco.pdb
+C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\obj\Debug\net9.0-windows\spiny taco_MarkupCompile.cache
+C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\obj\Debug\net9.0-windows\spiny taco_MarkupCompile.lref
+C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\obj\Debug\net9.0-windows\spiny taco.g.resources
+C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\obj\Debug\net9.0-windows\spiny taco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\obj\Debug\net9.0-windows\spiny taco.AssemblyInfoInputs.cache
+C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\obj\Debug\net9.0-windows\spiny taco.AssemblyInfo.cs
+C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\obj\Debug\net9.0-windows\spiny taco.csproj.CoreCompileInputs.cache
+C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\obj\Debug\net9.0-windows\spiny taco.dll
+C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\obj\Debug\net9.0-windows\refint\spiny taco.dll
+C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\obj\Debug\net9.0-windows\spiny taco.pdb
+C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\obj\Debug\net9.0-windows\spiny taco.genruntimeconfig.cache
+C:\Users\Kaike\RiderProjects\spiny taco\spiny taco\obj\Debug\net9.0-windows\ref\spiny taco.dll

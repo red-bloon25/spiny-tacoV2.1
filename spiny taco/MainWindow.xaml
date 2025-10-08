@@ -1,0 +1,93 @@
+﻿<Window x:Class="spiny_taco.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:spiny_taco"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="500"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanResize"
+        Name="THEWINDOW"
+        AllowsTransparency="True"
+        >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <Border Height="150" Background="Gray" Opacity=".8"/>
+        <Canvas Margin="10,1,0,0">
+            <Button
+                Name="LEAVE"
+                Background="Red"
+                Width="20"
+                Height="17"
+                Content="X"
+                FontSize="10"
+                VerticalContentAlignment="Top"
+                HorizontalContentAlignment="Center"
+                Click="LEAVE_OnClick"
+            />
+        </Canvas><Canvas Margin="35,1,0,0" >
+            <Button
+                Name="MakeSMALL"
+                Background="Yellow"
+                Width="20"
+                Height="17"
+                Content="‾"
+                FontSize="19"
+                VerticalContentAlignment="Top"
+                HorizontalContentAlignment="Center"
+                Click="MakeSMALL_OnClick"
+            />
+        </Canvas>
+        
+        <Canvas Margin="60,1,0,0" >
+            <ToggleButton
+                Name="MakeLarge"
+                Background="GreenYellow"
+                Width="20"
+                Height="17"
+                Content="▢"
+                FontSize="11"
+                VerticalContentAlignment="Top"
+                HorizontalContentAlignment="Center"
+                Click="MakeLarge_OnClick"
+            />
+        </Canvas>
+        <!-- add a logo or something idk -->
+        <Border Grid.Row="1" Opacity="0">
+            <Image Grid.Row="1"
+                   Source="images/taco.jpg"
+               Width="350"
+                  Margin="0,60,0,0"
+            />
+        </Border>
+        <Label Grid.Row="1"
+               Name="counter"
+               Content="times spun:"
+               FontSize="30"
+               VerticalAlignment="Top"
+               HorizontalAlignment="Center"
+               Margin="0,60,0,0"
+               />
+        <Image Grid.Row="1"
+               Source="images/taco.jpg"
+               Width="190"
+               Margin="0,60,0,0"
+               Name="taco"
+        />
+        <Button Grid.Row="1"
+                Name="Button"
+                Width="100"
+                Height="40"
+                Content="spin taco"
+                FontSize="20"
+                Margin="0,350,0,0"
+                Click="SPINTACO"
+                />
+    </Grid>
+</Window>
