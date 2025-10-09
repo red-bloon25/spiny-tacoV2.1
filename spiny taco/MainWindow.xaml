@@ -8,9 +8,8 @@
         Title="MainWindow" Height="450" Width="500"
         WindowStyle="None"
         WindowStartupLocation="CenterScreen"
-        ResizeMode="CanResize"
+        ResizeMode="CanMinimize"
         Name="THEWINDOW"
-        AllowsTransparency="True"
         Icon="images/taco.ico"
         >
     <Grid>
@@ -19,7 +18,7 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         
-        <Border Height="150" Background="Gray" Opacity=".8"/>
+        <Border Height="150" Background="Gray" Opacity=".8" MouseLeftButtonDown="moveit"/>
         <Canvas Margin="10,1,0,0">
             <Button
                 Name="LEAVE"

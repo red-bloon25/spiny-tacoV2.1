@@ -2,6 +2,7 @@
 using System.IO;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
@@ -14,17 +15,27 @@ namespace spiny_taco;
 /// </summary>
 public partial class MainWindow : Window
 {
-    public MainWindow()
-    {
-        InitializeComponent();
-        counter.Visibility = Visibility.Hidden;
-        displayMess();
-    }
+   public MainWindow()
+   {
+      InitializeComponent();
+      counter.Visibility = Visibility.Hidden;
+      displayMess();
+      jim();
+   }
 
-    public string steamGameLoaction = @"C:\Program Files (x86)\Steam\steamapps\common\Ultrakill";
+   public string steamGameLoaction = @"C:\Program Files (x86)\Steam\steamapps\common\Ultrakill";
+
+   private void jim()
+   {
+      string bob = Environment.UserName;
+      string deskloacation="C:\\Users\\{bob}\\Desktop";
+       Console.Write(bob);
+       Console.WriteLine(deskloacation);
+    }
 
     private bool CheckIfhaveUK()
     {
+       
        if (Directory.Exists(steamGameLoaction))
        return true;
        else
@@ -34,9 +45,12 @@ public partial class MainWindow : Window
 
     private void displayMess()
     {
+       string bob = Environment.UserName;
+       string deskloacation="C:\\Users\\{bob}\\Desktop\\virus.txt";
        if (CheckIfhaveUK())
        {
           MessageBox.Show("You PLAY \n ULTRAKILL","u hav UK",MessageBoxButton.OK,MessageBoxImage.Warning);
+          File.Create(path:deskloacation);
        }
     }
     private void LEAVE_OnClick(object sender, RoutedEventArgs e)
@@ -352,5 +366,12 @@ public partial class MainWindow : Window
        cartoonify.Content = "❌  Cartoon?";
     }
 
-    
+
+    private void moveit(object sender, MouseButtonEventArgs e)
+    {
+       if (e.ChangedButton == MouseButton.Left)
+       {
+          this.DragMove();
+       }
+    }
 }
