@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("spiny taco")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f469a4615f60445d2f68fe74f0a8260eda8eb83")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc4b05e3dd4e98f2488345c2dcef85be85f5f1eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("spiny taco")]
 [assembly: System.Reflection.AssemblyTitleAttribute("spiny taco")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
